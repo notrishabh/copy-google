@@ -1,0 +1,5 @@
+#!/bin/bash
+xd=`xclip -o | tr " " "+"`
+eval "google-chrome google.com/search?q=$xd"
+
+
